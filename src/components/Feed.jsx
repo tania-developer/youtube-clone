@@ -11,9 +11,9 @@ const Feed = () => {
   useEffect(() => {
     setVideos(null)
 
-    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then((data) => {
-      setVideos(data.items)
-    })
+    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then((data) =>
+      setVideos(data.items),
+    )
   }, [selectedCategory])
 
   return (
@@ -34,11 +34,11 @@ const Feed = () => {
           variant="body2"
           sx={{ mt: 1.5, color: '#fff' }}
         >
-          Copyright © 2022 JSM Media
+          Copyright © 2022 Tania
         </Typography>
       </Box>
 
-      <Box>
+      <Box p={2} sx={{ overflowY: 'auto', height: '90vh', flex: 2 }}>
         <Typography
           variant="h4"
           fontWeight="bold"
