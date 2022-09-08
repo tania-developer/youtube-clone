@@ -1,18 +1,17 @@
-# Project TItle:📌
+## Project TItle:📌
 
 youtube-clone
 
 ## Live Link:🔗
 
-In the project directory, you can run:
+https://631a4d0933959706ce774d1d--stupendous-queijadas-3a1156.netlify.app/
 
 ### About the project:📚
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- This Project has a responsive sidebar
+- In the searchbar can search for any videos
+- It has channel details options. Any channels can be click for full playlist
+- Video can be played
 
 ### Screenshots:📷
 
@@ -20,44 +19,17 @@ You may also see any lint errors in the console.
 
 ### Technology Used:🔧
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React JS
+Material UI
+React BrowserRouter
+React Video Player
+Axios
+Rapid API
 
 ### Setup/Installation:💻
 
-## Approach: 🚶🏼
+Create React app then install all the npm packages and library from json file. For starting the project give the command 'npm start' to the command line.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Approach: 🚶🏼
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# youtube-clone
+This project used eslint airbnb for style component. For code formatter used prettier.
